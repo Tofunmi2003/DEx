@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -20,6 +20,32 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "TCN",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "USDT",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [
@@ -102,32 +128,6 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "tokenA",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "tokenB",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -158,11 +158,11 @@
 	},
 	"sources": {
 		"BasicDEx.sol": {
-			"keccak256": "0xacdd0f33709e3a7f27f56a9a2f7ba2363e8ee800b0d4f1f101f5dd1e3b019748",
+			"keccak256": "0x73119b3d383ab9b8c4d3f2795b997c62544c15a9479eb77faf0c0559d7e75bf6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ce174eec9f3cf976bb2ec1c8a593696cc4a30af571fa7cacecebe5630d1cdaee",
-				"dweb:/ipfs/QmULQSDixhr2cdjQN9AqdbfzCxiv7meDChcFRS73BNhZvN"
+				"bzz-raw://200eee6bc4b1112eee3f85481711d501f6783380aa2b7392e6ced364ae66bafb",
+				"dweb:/ipfs/QmVAno14Ay6WbwL1Ej6XiGziA3TpkTM8jk2XfCqDGE2CLq"
 			]
 		}
 	},

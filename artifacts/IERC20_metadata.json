@@ -1,10 +1,34 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					}
+				],
+				"name": "allowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
 			{
 				"inputs": [
 					{
@@ -130,11 +154,11 @@
 	},
 	"sources": {
 		"BasicDEx.sol": {
-			"keccak256": "0xacdd0f33709e3a7f27f56a9a2f7ba2363e8ee800b0d4f1f101f5dd1e3b019748",
+			"keccak256": "0x95ec95ae7d2b8ebbe20dc9c10644cfe96c7e762043162faebf40fe686cfe52fa",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ce174eec9f3cf976bb2ec1c8a593696cc4a30af571fa7cacecebe5630d1cdaee",
-				"dweb:/ipfs/QmULQSDixhr2cdjQN9AqdbfzCxiv7meDChcFRS73BNhZvN"
+				"bzz-raw://32df29a3b9696fcc57adaf7a7e4489675971f9c69b1155bc5cf513090e9b7257",
+				"dweb:/ipfs/QmecWjFxdSHBPDvXLf6xU7zMgrvLC4oiYFo1qjy8dBapwc"
 			]
 		}
 	},
